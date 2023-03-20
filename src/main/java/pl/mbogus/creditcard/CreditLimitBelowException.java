@@ -1,2 +1,4 @@
-package pl.mbogus.creditcard;public class CreditLimitBelowException {
+package pl.mbogus.creditcard;
+
+public class CreditLimitBelowException extends IllegalStateException{
 }
